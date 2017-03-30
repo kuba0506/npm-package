@@ -1,0 +1,42 @@
+{
+  "name": "npm-package",
+  "version": "1.0.0",
+  "description": "Filter out a list of sensitive words",
+  "main": "build/index.js",
+  "watch": {
+    "build": "src/*.js"
+  },
+  "scripts": {
+    "dev": "npm-watch",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuba0506/npm-package.git"
+  },
+  "keywords": [
+    "filter",
+    "filtering",
+    "sensitive",
+    "words"
+  ],
+  "author": "Kuba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuba0506/npm-package/issues"
+  },
+  "homepage": "https://github.com/kuba0506/npm-package#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "jest": "^19.0.2",
+    "npm-watch": "^0.1.8"
+  }
+}
