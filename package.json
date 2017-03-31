@@ -8,9 +8,11 @@
   },
   "scripts": {
     "dev": "npm-watch",
-    "build": "babel src -d build --watch",
+    "build": "babel src -d build",
+    "build:watch": "npm run build -- --watch",
     "test": "jest",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "prepublish": "npm run build"
   },
   "babel": {
     "presets": [
