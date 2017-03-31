@@ -1,5 +1,5 @@
 {
-  "name": "sensitive-words",
+  "name": "npm-package-kuba0506",
   "version": "1.0.0",
   "description": "Filter out a list of sensitive words",
   "main": "build/index.js",
