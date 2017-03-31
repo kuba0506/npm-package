@@ -12,7 +12,8 @@
     "build:watch": "npm run build -- --watch",
     "test": "jest",
     "test:watch": "npm test -- --watch",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "release": "np"
   },
   "babel": {
     "presets": [
@@ -25,7 +26,7 @@
   },
   "keywords": [
     "filter",
-    "filtering", 
+    "filtering",
     "sensitive",
     "words"
   ],
@@ -39,6 +40,7 @@
     "babel-cli": "^6.18.0",
     "babel-preset-latest": "^6.16.0",
     "jest": "^19.0.2",
+    "np": "^2.13.1",
     "npm-watch": "^0.1.8"
   }
 }

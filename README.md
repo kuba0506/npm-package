@@ -16,5 +16,5 @@ const filtered = sensitiveWords(
 );
 
 console.log(filtered);
-//New apple mackbook *** has ***
+//New apple mackbook ***** has *****
 ```
