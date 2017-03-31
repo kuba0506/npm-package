@@ -1,14 +1,14 @@
 # Example
 
 ```shell
-$ npm install npm-package -S
+$ npm i npm-package -S
 ```
 
 ```javascript
-const {sensitiveWords} = require('npm-package');
+const {sensitiveWords} = require('sensitive-words');
 
 //ES2015 modules
-import {sensitiveWords} from 'npm-package'
+import {sensitiveWords} from 'sensitive-words'
 
 const filtered = sensitiveWords(
     'New apple mackbook pro has touchbar',

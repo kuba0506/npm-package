@@ -1,5 +1,5 @@
 {
-  "name": "npm-package",
+  "name": "sensitive-words",
   "version": "1.0.0",
   "description": "Filter out a list of sensitive words",
   "main": "build/index.js",
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "npm-watch",
-    "build": "babel src -d build",
+    "build": "babel src -d build --watch",
     "test": "jest",
     "test:watch": "npm test -- --watch"
   },
@@ -23,7 +23,7 @@
   },
   "keywords": [
     "filter",
-    "filtering",
+    "filtering", 
     "sensitive",
     "words"
   ],
